@@ -3,7 +3,8 @@ import os
 # Packagers: Modifique a próxima linha se você armazenar os arquivos de modelo do notebook em outro local
 DEFAULT_STATIC_FILES_PATH = os.path.join(os.path.dirname(__file__), "static")
 
-# Inclua notebook / e notebook / modelos /. Isso torna possível que os usuários substituam um modelo por
+# Inclua notebook /notebook/ e notebook/templates/.
+Isso torna possível que os usuários substituam um modelo por
 # um arquivo herdado daquele template.
 #
 # Por exemplo, se você deseja substituir um bloco específico de notebook.html, pode
