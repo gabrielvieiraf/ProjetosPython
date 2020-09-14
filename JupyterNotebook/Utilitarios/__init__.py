@@ -4,8 +4,7 @@ import os
 DEFAULT_STATIC_FILES_PATH = os.path.join(os.path.dirname(__file__), "static")
 
 # Inclua notebook /notebook/ e notebook/templates/.
-Isso torna possível que os usuários substituam um modelo por
-# um arquivo herdado daquele template.
+# Isso torna possível que os usuários substituam um modelo por um arquivo herdado daquele template.
 #
 # Por exemplo, se você deseja substituir um bloco específico de notebook.html, pode
 # pode criar um arquivo chamado notebook.html que herda de templates / notebook.html,
