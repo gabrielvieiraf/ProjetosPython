@@ -4,6 +4,7 @@ Todos os projetos terão uma explicação no arquivo README, para ajudá-los a s
 <p align='center'>
   <img src='https://user-images.githubusercontent.com/48156370/81460839-2cb22280-917e-11ea-9b9a-f22e0af1a489.gif'>  
 </p>
+
 # 📁 Pastas
 O repositório está dividido em códigos desenvolvidos no Jupyter Notebook (Ferramenta bastante utilizada em Data Science) e programas em Python que desenvolvo. 
 Dentro da minha proposta, não vejo motivo em dividir esses dois repositórios, por isso eu deixo eles juntinhos aqui pra vocês. 
