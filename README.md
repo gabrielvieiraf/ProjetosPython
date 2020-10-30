@@ -6,8 +6,8 @@ Todos os projetos terão uma explicação no arquivo README, para ajudá-los a s
 </p>
 
 # 📁 Pastas
-O repositório está dividido em códigos desenvolvidos no Jupyter Notebook (Ferramenta bastante utilizada em Data Science) e programas em Python que desenvolvo. 
-Dentro da minha proposta, não vejo motivo em dividir esses dois repositórios, por isso eu deixo eles juntinhos aqui pra vocês. 
+O repositório está dividido em códigos desenvolvidos no Jupyter Notebook e Google Colab (Ambientes muito utilizados em Data Science) e programas em Python que desenvolvo. Nesse repositório você pode aprender um pouco mais sobre a linguagem python, sobre a utilização do Google Colab e Jupyter Notebook, além de ferramentas como pandas, widgets, requests, openCV e etc.  
+Dentro da minha proposta, não vejo motivo em dividir o conteúdo em mais repositórios, por isso eu deixo eles juntinhos aqui pra vocês. 
 
 <p align='center'>
   <img src='https://user-images.githubusercontent.com/48156370/81835062-2c1be200-9518-11ea-8be0-d2217d61ab76.gif'>
