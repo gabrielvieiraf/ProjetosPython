@@ -9,12 +9,27 @@ csv = '/content/drive/My Drive/Colab Notebooks/Alura/aluguel.csv'
 dados = pd.read_csv(csv, sep = ";")
 dados.head(10)
 
-#Cria coluna para Tipos de dados
+# Método para filtrar NaN numbers e tranformar em 0
+dados = dados.fillna(0)
+
+# Utilizando método query
+
+# Casas com valor do Aluguel abaixo de 5000
+dados.query("Valor < 5000 & Tipo == 'Casa'")
+
+# Média do aluguel de casas
+dados.query("Tipo == 'Casa'").Valor.mean()
+
+# Tipos de Moradias
+Tipos = sorted(tipos_de_dados.unique())
+
+# Cria coluna para Tipos de dados
 tipos_de_dados = pd.DataFrame(dados.dtypes, 
     columns = ['Tipos de Dados'])
-#Cria coluna para as variáveis no index
+
+# Cria coluna para as variáveis no index
 tipos_de_dados.columns.name = 'Variáveis'
-#Imprime Tipos de Dados
+# Imprime Tipos de Dados
 tipos_de_dados
 
 # Importando dados HTML
